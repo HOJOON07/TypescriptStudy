@@ -7,4 +7,4 @@ const obj = {
 };
 
 obj["sym"]; //접근 불가
-obj[sym];
+obj[sym]; //접근 가능
