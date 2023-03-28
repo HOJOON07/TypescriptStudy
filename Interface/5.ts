@@ -4,7 +4,7 @@ interface IPerson1 {
   hello(): void;
 }
 //implements를 사용해서 interface를 클래스로 사용할수있다.
-class Person implements IPerson1 {
+class Person3 implements IPerson1 {
   name: string; //초기값을 지정해줘야함.
   age?: number | undefined;
   constructor(name: string) {
